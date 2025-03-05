@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://real-time-chess-game-7o0n.onrender.com");
 
 const chess = new Chess();
 
